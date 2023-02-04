@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/247.5e3a3e5b.chunk.js","mappings":"6LAAaA,EAAO,WAClB,OACE,0BACE,iCAGL,EAED,W","sources":["components/Cast/Cast.jsx"],"sourcesContent":["export const Cast = () => {\n  return (\n    <div>\n      <p>Cats</p>\n    </div>\n  );\n};\n\nexport default Cast"],"names":["Cast"],"sourceRoot":""}
