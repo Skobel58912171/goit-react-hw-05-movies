@@ -16,7 +16,7 @@ const Movies = () => {
     (async () => {
       try {
         const data = await fetchSearchMovie(movieName);
-
+        console.log(data);
         setMovies(data);
       } catch {
         console.log(Error);
