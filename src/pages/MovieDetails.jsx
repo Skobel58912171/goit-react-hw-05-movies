@@ -3,7 +3,7 @@ import { MovieData } from 'components/MovieData/MovieData';
 import { useRef } from 'react';
 import { useEffect, useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
-import { fetchMovieDetails } from 'services/api';
+import { fetchMovieDetails } from 'services/Api';
 
 const MovieDetails = () => {
   const [movieDetails, setMovieDetails] = useState(null);

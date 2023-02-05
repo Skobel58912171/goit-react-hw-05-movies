@@ -1,7 +1,7 @@
 // import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchMovieReviews } from 'services/api';
+import { fetchMovieReviews } from 'services/Api';
 import { ListReview, Author } from './Reviews.styled';
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);

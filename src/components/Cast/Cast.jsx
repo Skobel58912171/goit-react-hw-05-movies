@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchMovieCredits } from 'services/api';
+import { fetchMovieCredits } from 'services/Api';
 import { baseImgUrl } from 'services/constans';
 import { ListCast, ItemCast, Profile } from './Cast.styled';
 
