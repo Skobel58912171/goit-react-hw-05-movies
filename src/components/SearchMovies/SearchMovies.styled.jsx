@@ -11,7 +11,7 @@ const Form = styled.form`
   width: 450px;
 `;
 
-const Field = styled.input`
+const Input = styled.input`
   display: block;
   outline: none;
   position: relative;
@@ -60,4 +60,4 @@ const Btn = styled.button`
   }
 `;
 
-export { Thumb, Form, Field, Btn };
+export { Thumb, Form, Input, Btn };

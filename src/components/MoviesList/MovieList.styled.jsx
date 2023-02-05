@@ -13,15 +13,16 @@ export const Item = styled.li`
   display: inline-block;
   width: 100%;
 `;
+
 export const MovieLink = styled(NavLink)`
+  display: inline-block;
   padding: 5px 16px;
   color: black;
-
-  font-weight: bold;
+  text-decoration: none;
   border-radius: 4px;
 
-  &:hover,
-  &:focus {
+  :hover,
+  :focus {
     color: #0000ff;
   }
 `;
